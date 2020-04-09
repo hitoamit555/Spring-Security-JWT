@@ -1,11 +1,25 @@
 # Spring-Security-JWT
 SpringBoot Security with JWT
 
+**End point Url : localhost:8080/login **
+~~~
+Username: username
+Password: password
+~~~
+
+#Input json request(TODO:)
+```json
+{
+"name": "username",
+"email": "email"
+}
+```
+
 **Git Commands and step to create new repo first time**
 
-1.Goto git browser and create repo with same name as local created. And copy url of you Repo and follow cmd below.
+**1. Goto git browser and create repo with same name as local created. And copy url of you Repo and follow cmd below.
 
-2.Goto local PC and follow below cmd
+**2. Goto local PC and follow below cmd
   ~~~ 
   cd my_project
   git init
@@ -15,7 +29,7 @@ SpringBoot Security with JWT
   git push -u origin master
   ~~~
   
-#Follow 3 or 4 if problems occurred during code push from local to git(git push -u origin master)
+***Follow 3 or 4 if problems occurred during code push from local to git(git push -u origin master)
 
 **3.If User not added into local pc(Adding new users in local PC)**
   ~~~
@@ -35,7 +49,7 @@ Check list of user if added duplicate and remove/replace
   
   
 
-**4.Remove/add user into computer for Windows**
+**4.Remove user from computer as below and try #3 again**
 ~~~
 Control panel > useraccount >credential >Generic credential
 Next Remove the github key
@@ -55,14 +69,4 @@ git remote add origin youruser@yourserver.com:/path/to/my_project.git
 git push origin master
 ~~~
 ##########################
-
-
-**Url :localhost:8080 **
-Input request
-```json
-{
-"name": "username",
-"email": "email"
-}
-```
    
