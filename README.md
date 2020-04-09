@@ -30,7 +30,7 @@ Done (Controller Output)
   git add .
   git commit -m "Initial commit"
   git remote add origin youruser@yourserver.com:/path/to/my_project.git
-  git push -u origin master
+  git push -u origin master(Before push anything,always do pull first:git pull origin master)
   ~~~
   
 ***Follow 3 or 4 if problems occurred during code push from local to git(During: git push -u origin master)***
@@ -112,6 +112,7 @@ git push origin mybranch
 
 **Daily update to avoid conflict**
 ~~~
+Note:(Before push anything after commit,always do pull first and then push:git pull origin master)
 git checkout master/myBranch
 git reset --hard origin/master
 git pull origin master
