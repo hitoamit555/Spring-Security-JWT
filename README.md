@@ -6,7 +6,7 @@ SpringBoot Security with JWT
 1.Goto git browser and create repo with same name as local created. And follow cmd below.
 
 2.Goto local and follow below cmd
-
+  ~~~ 
   git init
   
   git add .
@@ -16,6 +16,7 @@ SpringBoot Security with JWT
   git remote add origin youruser@yourserver.com:/path/to/my_project.git
   
   git push -u origin master
+  ~~~
   
 If User not added into local pc(Adding new users)
 
