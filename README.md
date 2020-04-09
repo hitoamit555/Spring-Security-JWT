@@ -85,7 +85,7 @@ esc + : + wq  (save file as prev comments) /(Don't save: esc + : + q)
 git push -f origin yourBranch (-f :fource push need)
 ~~~
 
-**Git resolve conflict 1 and 2 scenario **
+**Git resolve conflict #1 and #2 scenario**
 
 ~~~
 Conflict: Occures When,In the same file,same time ,same code block changed by multiple users
