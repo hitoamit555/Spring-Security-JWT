@@ -7,6 +7,7 @@ SpringBoot Security with JWT
 
 2.Goto local PC and follow below cmd
   ~~~ 
+  cd my_project
   git init
   git add .
   git commit -m "Initial commit"
@@ -14,7 +15,9 @@ SpringBoot Security with JWT
   git push -u origin master
   ~~~
   
-**If User not added into local pc(Adding new users in local PC)**
+#Follow 3 or 4 if problems occurred during code push from local to git(git push -u origin master)
+
+**3.If User not added into local pc(Adding new users in local PC)**
   ~~~
   git config --global user.email "you@examole.com"
   git config --global user.name "Your name"
@@ -32,7 +35,7 @@ Check list of user if added duplicate and remove/replace
   
   
 
-**Remove/add user into computer for Windows**
+**4.Remove/add user into computer for Windows**
 ~~~
 Control panel > useraccount >credential >Generic credential
 Next Remove the github key
@@ -42,9 +45,9 @@ and again add user into cmd
 
 ########################
 ~~~
-mkdir my_project
+mkdir my_project (create folder)
 cd my_project
-touch .gitignore
+touch .gitignore (create file)
 git init
 git add .
 git commit -m "Initial commit"
