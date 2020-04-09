@@ -49,6 +49,9 @@ Check listof users if added duplicate and remove/replace
   git config --list
   git config --global --replace-all user.email "you@examole.co"
   git config --global --add user.email "you@examole.co"
+  
+  git remote -v(check remote url set or not if not below)
+  git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
   ~~~
   
   
@@ -65,7 +68,7 @@ and again add user into cmd
 ~~~
 mkdir my_project (create folder)
 cd my_project
-touch .gitignore (create file)
+touch .gitignore (create file and add entry those file don't want to track/commit into git)
 git init
 git add .
 git commit -m "Initial commit"
@@ -126,6 +129,9 @@ git add fileWithProjectpath
 git log -4
 git charry-pick commitID(To get changes into you branch by commitId)
 git rebase origin/master
+
+If you wish to set tracking information for this branch you can do so with:
+git branch --set-upstream new origin/<branch>
 ~~~
 
    
