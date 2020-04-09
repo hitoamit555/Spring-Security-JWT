@@ -19,7 +19,7 @@ Password: password
 
 **1. Goto git browser and create repo with same name as local created. And copy url of you Repo and follow cmd below.
 
-**2. Goto local PC and follow below cmd
+**2. Goto local PC and follow below cmd**
   ~~~ 
   cd my_project
   git init
@@ -29,7 +29,7 @@ Password: password
   git push -u origin master
   ~~~
   
-***Follow 3 or 4 if problems occurred during code push from local to git(git push -u origin master)***
+***Follow 3 or 4 if problems occurred during code push from local to git(During: git push -u origin master)***
 
 **3.If User not added into local pc(Adding new users in local PC)**
   ~~~
@@ -39,7 +39,7 @@ Password: password
   Then popup window will open, asking for git username and passwword
   ~~~
 
-Check list of user if added duplicate and remove/replace
+Check list of users if added duplicate and remove/replace
 
   ~~~
   git config --list
