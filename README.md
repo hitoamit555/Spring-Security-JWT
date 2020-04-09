@@ -4,11 +4,17 @@ SpringBoot Security with JWT
 **Git Commands and step to create new repo first time**
 
 1.Goto git browser and create repo with same name as local created. And follow cmd below.
-2.Goto local and follow below cmd 
+
+2.Goto local and follow below cmd
+
   git init
+  
   git add .
+  
   git commit -m "Initial commit"
+  
   git remote add origin youruser@yourserver.com:/path/to/my_project.git
+  
   git push -u origin master
   
 If User not added into local pc(Adding new users)
