@@ -110,13 +110,23 @@ git push origin mybranch
 ~~~
 
 
-**Daily update to avoid conflict**
+**First time working on Any New Changes /Daily update to avoid conflict**
 ~~~
-Note:(Before push anything after commit,always do pull first and then push:git pull origin master)
+git clone url(Url can copy from git repo )
+
+It can clone by 2 ways.
+1.SSH key Ways:Genrate sshkey locally and add into git console in key and add into .profile(In MAC)
+2.Add user into local PC (Follow #3 or #4 as above.In Windows)
+
 git checkout master/myBranch
 git reset --hard origin/master
 git pull origin master
 git checkout -b myNewbranch
+git add -u
+git commit -m "my comments"
+git pull origin master(Always do before push into repo,after local commit)
+git push origin myNewbranch
+Note:(Before push anything after commit,always do pull first and then push:git pull origin master)
 ~~~
 
 **All useful cmd**
