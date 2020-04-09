@@ -1,10 +1,14 @@
 # Spring-Security-JWT
 SpringBoot Security with JWT
 
-**End point Url : localhost:8080/login**
+**End point Url :# localhost:8080/login**
 ~~~
 Username: username
 Password: password
+~~~
+#Output
+~~~
+Done
 ~~~
 
 #Input json request(TODO:)
@@ -17,7 +21,7 @@ Password: password
 
 **Git Commands and step to create new repo first time**
 
-**1. Goto git browser and create repo with same name as local created. And copy url of you Repo and follow cmd below.
+**1. Goto git browser and create repo with same name as local created. And copy url of you Repo and follow cmd below.**
 
 **2. Goto local PC and follow below cmd**
   ~~~ 
@@ -39,7 +43,7 @@ Password: password
   Then popup window will open, asking for git username and password
   ~~~
 
-Check list of users if added duplicate and remove/replace
+Check listof users if added duplicate and remove/replace
 
   ~~~
   git config --list
@@ -83,7 +87,8 @@ git push -f origin yourBranch (-f :fource push need)
 #1 (Conflict while take update)
 git pull origin master (always do after commit you local changes )
 Identify how many files have conflict(Red one) -Resolve the conflicts/Do the local changes/Keep either one changes
-#Best Way, copy entaire file change from Master branch of git UI/Console past into conflict file and Add your changes on top of that.Do for All file one by one
+#Best Way, copy entaire file change from Master branch of git UI/Console past into conflict file 
+and Add your changes on top of that.Do for All file one by one
 git add -u
 git commit -a(git commit -m "your's comments")
 git push origin mybranch(git push -f origin mybranch) 
