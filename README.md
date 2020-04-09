@@ -85,9 +85,10 @@ esc + : + wq  (save file as prev comments) /(Don't save: esc + : + q)
 git push -f origin yourBranch (-f :fource push need)
 ~~~
 
-**Git resolve conflict 1 and 2 senarioes **
+**Git resolve conflict 1 and 2 scenario **
+
 ~~~
-#Conflict: Occures When,In the same file,same time ,same code block changed by multiple users
+Conflict: Occures When,In the same file,same time ,same code block changed by multiple users
 
 #1 (Conflict while take update)
 git pull origin master (always do after commit you local changes )
