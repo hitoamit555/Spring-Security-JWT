@@ -1,7 +1,7 @@
 # Spring-Security-JWT
 SpringBoot Security with JWT
 
-**End point Url : localhost:8080/login **
+**End point Url : localhost:8080/login**
 ~~~
 Username: username
 Password: password
@@ -29,7 +29,7 @@ Password: password
   git push -u origin master
   ~~~
   
-***Follow 3 or 4 if problems occurred during code push from local to git(git push -u origin master)
+***Follow 3 or 4 if problems occurred during code push from local to git(git push -u origin master)***
 
 **3.If User not added into local pc(Adding new users in local PC)**
   ~~~
