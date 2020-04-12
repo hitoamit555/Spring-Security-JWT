@@ -1,7 +1,7 @@
 # Spring-Security-JWT
 SpringBoot Security with JWT
 
-***NOTE: First Hit the 2nd End point and get the JWT Token and access all End Points. ***
+***NOTE: First Hit the 2nd End point and get the JWT Token and access all End Points.***
 
 **1st End point Url (This also req JWT token) :# localhost:8080/login**
 ~~~
@@ -13,7 +13,7 @@ Password: password
 Done (Controller Output)
 ~~~
 
-**2ns End point for get JWT token POST:localhost:8080/authenticate **
+**2ns End point for get JWT token POST:localhost:8080/authenticate**
 Input Headers and Body
 ~~~
 curl --location --request POST 'localhost:8080/authenticate' \
@@ -31,7 +31,7 @@ Output:
     "jwt": "xyz-abc-jwttoken"
 }
 ```
-**3rd End point access by JWT Token only GET:localhost:8080/authenticate **
+**3rd End point access by JWT Token only GET:localhost:8080/authenticate**
 Input Headers and Body
 ~~~
 curl --location --request GET 'localhost:8088/hello' \
@@ -46,14 +46,6 @@ Output:
 }
 ```
 
-
-#Input json request(TODO:)
-```json
-{
-"name": "username",
-"email": "email"
-}
-```
 Tutorial video and related links
 
 https://www.youtube.com/watch?v=X80nJ5T7YpE
