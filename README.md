@@ -1,7 +1,9 @@
 # Spring-Security-JWT
 SpringBoot Security with JWT
 
-**End point Url :# localhost:8080/login**
+***NOTE: First Hit the 2nd End point and get the JWT Token and access all End Points. ***
+
+**1st End point Url (This also req JWT token) :# localhost:8080/login**
 ~~~
 Username: username
 Password: password
@@ -11,6 +13,40 @@ Password: password
 Done (Controller Output)
 ~~~
 
+**2ns End point for get JWT token POST:localhost:8080/authenticate **
+Input Headers and Body
+~~~
+curl --location --request POST 'localhost:8080/authenticate' \
+Header key-value
+--header 'Content-Type: application/json' \
+Json Body
+--data-raw '{
+    "username": "username",
+    "password": "password"
+}'
+~~~
+Output:
+```
+{
+    "jwt": "xyz-abc-jwttoken"
+}
+```
+**3rd End point access by JWT Token only GET:localhost:8080/authenticate **
+Input Headers and Body
+~~~
+curl --location --request GET 'localhost:8088/hello' \
+Header key-value
+--header 'Authorization: Bearer xyz-abc-jwttoken' \
+--header 'Content-Type: application/json'
+~~~
+Output:
+```
+{
+    Done (Controller Output)
+}
+```
+
+
 #Input json request(TODO:)
 ```json
 {
@@ -18,6 +54,11 @@ Done (Controller Output)
 "email": "email"
 }
 ```
+Tutorial video and related links
+
+https://www.youtube.com/watch?v=X80nJ5T7YpE
+Git code
+https://github.com/koushikkothagal/spring-security-jwt
 
 **Git Commands and step to create new repo first time**
 
