@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=X80nJ5T7YpE
 Git code
 https://github.com/koushikkothagal/spring-security-jwt
 
-**Git Commands and step to create new repo first time**
+**First time create new repo in Git Commands**
 
 **1. Goto git browser and create repo with same name as local created. And copy url of you Repo and follow cmd below.**
 
