@@ -50,6 +50,7 @@ public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 						anyRequest().authenticated().and().
 						exceptionHandling().and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		//Many Ways Add filter links :https://www.programcreek.com/java-api-examples/?class=org.springframework.security.config.annotation.web.builders.HttpSecurity&method=addFilterBefore
 		httpSecurity.addFilterBefore(jwtRequestFilter, CsrfFilter.class);//Spring security 3.0
 		//httpSecurity.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 
