@@ -62,7 +62,9 @@ https://github.com/koushikkothagal/spring-security-jwt
   git init
   git add .
   git commit -m "Initial commit"
-  git remote add origin youruser@yourserver.com:/path/to/my_project.git
+  Got to GitHub and create the new Repo with same Project Name
+  git remote set-url origin https://github.com/hitoamit555/my_project.git( Copy url from GitHub after creating the new Repo,Past(Replace) after set-url origin)
+  Or--- git remote add origin youruser@yourserver.com:/path/to/my_project.git
   git push -u origin master(Before push anything,always do pull first:git pull origin master)
   ~~~
   
